@@ -1,7 +1,7 @@
 # SOC Prototype Project using Open-Source Tools
 
 ## Objective
-The topic of my bachelor's thesis was "**Prototype Project of a SOC Using Open-Source Solutions Wazuh, Shuffle, Cortex, TheHive**" My main aim was to investigate process of creating a SOC team, develop a security event monitoring subsystem based on free open-source solutions, which can become the basis for SOCs in small and medium-sized enterprises.
+The topic of my bachelor's thesis was "**Prototype Project of a SOC Using Open-Source Solutions Wazuh, Shuffle, Cortex, TheHive**". My main aim was to investigate process of creating a SOC team, develop a security event monitoring subsystem based on free open-source solutions, which can become the basis for SOCs in small and medium-sized enterprises.
 
 ## Tools Used
 - **Wazuh**: Open-source security monitoring for event analysis and compliance management.  
@@ -27,9 +27,9 @@ The topic of my bachelor's thesis was "**Prototype Project of a SOC Using Open-S
 - **Integrated TheHive and Cortex** via API, enabling seamless interaction between incident management and artifact analysis.  
 - **Connected a Discord bot** to deliver real-time notifications to the SOC analyst regarding new incidents.  
 - **Simulated real-world attack scenarios**:
-  - RDP brute-force attack
-  - Reverse Shell run with PowerShell
-  - Adding malicious files to system
+  - [RDP brute-force attack](scenarios/RDP-Brute-Force-Attack.md)
+  - [Reverse Shell run with PowerShell](scenarios/Reverse-Shell-Execution.md)
+  - [Adding malicious files to system](scenarios/FIM-(File-Integrity-Monitoring)-Detection.md)
 
 ## Network Topology
 ![](images/network-topology.png)
