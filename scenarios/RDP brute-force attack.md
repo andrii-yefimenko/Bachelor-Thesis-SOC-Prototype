@@ -19,4 +19,4 @@ Hydra with Kali was used to brute force the password on 3389/tcp.
 - In TheHive, IP can be sent to check it with AbuseIPDB or VirusTotal
 
 ## Shuffle Workflow
-![](images/shuffle-workflow-rdp.png)
+![](../images/shuffle-workflow-rdp.png)
