@@ -4,16 +4,16 @@
 The topic of my bachelor's thesis was "**Prototype Project of a SOC Using Open-Source Solutions Wazuh, Shuffle, Cortex, TheHive**" My main aim was to investigate process of creating a SOC team, develop a security event monitoring subsystem based on free open-source solutions, which can become the basis for SOCs in small and medium-sized enterprises.
 
 ## Tools Used
-**Wazuh**: Open-source security monitoring for event analysis and compliance management.
-**Shuffle**: Orchestration platform for automating security tool workflows.
-**TheHive**: Scalable, open-source security incident response platform.
-**Cortex**: Open source and free software for observables analysis.
-**Oracle VM VirtualBox**: Open-source virtualization software that allows users to run multiple operating system on a single device.
-**Windows Server 2019**: Enterprise-grade operating system used to deploy Active Directory Domain.
-**Ubuntu Desktop 24.04**: A free and open-source Linux-based operating system used to run all necessary SOC tools.
-**Discord Bot**: A programmable automation tool integrated into the Discord platform to perform tasks such as sending alerts, executing commands, or collecting data in real time.
-**VirusTotal**: An online service that analyzes files and URLs for viruses, worms, trojans, and other kinds of malicious content using multiple antivirus engines.
-**AbuseIPDB**: A collaborative platform for reporting and checking IP addresses involved in abusive activities such as hacking attempts, brute-force attacks, and spam.
+**Wazuh**: Open-source security monitoring for event analysis and compliance management.  
+**Shuffle**: Orchestration platform for automating security tool workflows.  
+**TheHive**: Scalable, open-source security incident response platform.  
+**Cortex**: Open source and free software for observables analysis.  
+**Oracle VM VirtualBox**: Open-source virtualization software that allows users to run multiple operating system on a single device.  
+**Windows Server 2019**: Enterprise-grade operating system used to deploy Active Directory Domain.  
+**Ubuntu Desktop 24.04**: A free and open-source Linux-based operating system used to run all necessary SOC tools.  
+**Discord Bot**: A programmable automation tool integrated into the Discord platform to perform tasks such as sending alerts, executing commands, or collecting data in real time.  
+**VirusTotal**: An online service that analyzes files and URLs for viruses, worms, trojans, and other kinds of malicious content using multiple antivirus engines.  
+**AbuseIPDB**: A collaborative platform for reporting and checking IP addresses involved in abusive activities such as hacking attempts, brute-force attacks, and spam.  
 
 ## Steps
 **Deployed the infrastructure** using VirtualBox with dedicated virtual machines for each SOC component, including Ubuntu Server, a domain controller, an attacker machine, and a centralized monitoring system.
@@ -32,6 +32,6 @@ The topic of my bachelor's thesis was "**Prototype Project of a SOC Using Open-S
 - Adding malicious files to system
 
 ## Network Topology
-![](images/network-topology.drawio.png)
+![](images/network topology.drawio.png)
 ## Architecture-Diagram
-![](images/bachelor-thesis-workflow.drawio.png)
+![](images/bachelor thesis workflow.drawio.png)
