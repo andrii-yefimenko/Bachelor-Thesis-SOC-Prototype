@@ -22,16 +22,16 @@ The topic of my bachelor's thesis was "**Prototype Project of a SOC Using Open-S
 - TheHive for incident case management where created users can quickly react to incidents, share tasks between each other, make reports.
 - Cortex for automated artifact analysis based on downloaded and configured analyzers like VirusTotal, AbuseIPDB.
 - Shuffle as SOAR platform for security workflow automation, enhancing the SOC's operational efficiency.
-**Developed custom detection rules in Wazuh** for for common attack patterns such as brute-force login attempts, suspicious PowerShell usage, and malicious files.
-**Built automated workflows in Shuffle** to handle alerts: creating TheHive alerts and cases, enriching with artifacts, sending them to Cortex for analysis, and processing the results.
-**Integrated TheHive and Cortex** via API, enabling seamless interaction between incident management and artifact analysis.
-**Connected a Discord bot** to deliver real-time notifications to the SOC analyst regarding new incidents.
+**Developed custom detection rules in Wazuh** for for common attack patterns such as brute-force login attempts, suspicious PowerShell usage, and malicious files.  
+**Built automated workflows in Shuffle** to handle alerts: creating TheHive alerts and cases, enriching with artifacts, sending them to Cortex for analysis, and processing the results.  
+**Integrated TheHive and Cortex** via API, enabling seamless interaction between incident management and artifact analysis.  
+**Connected a Discord bot** to deliver real-time notifications to the SOC analyst regarding new incidents.  
 **Simulated real-world attack scenarios**:
 - RDP brute-force attack
 - Reverse Shell run with PowerShell
 - Adding malicious files to system
 
 ## Network Topology
-![](images/network topology.drawio.png)
+![](images/network-topology.png)
 ## Architecture-Diagram
-![](images/bachelor thesis workflow.drawio.png)
+![](images/architecture-design.png)
