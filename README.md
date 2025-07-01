@@ -16,7 +16,7 @@ The topic of my bachelor's thesis was "**Prototype Project of a SOC Using Open-S
 **AbuseIPDB**: A collaborative platform for reporting and checking IP addresses involved in abusive activities such as hacking attempts, brute-force attacks, and spam.  
 
 ## Steps
-**Deployed the infrastructure** using VirtualBox with dedicated virtual machines for each SOC component, including Ubuntu Server, a domain controller, an attacker machine, and a centralized monitoring system.
+**Deployed the infrastructure** using VirtualBox with dedicated virtual machines for each SOC component, including Ubuntu Server, a domain controller, an attacker machine, and a centralized monitoring system.  
 **Installed and configured core SOC tools**:
 - Wazuh Central Components as SIEM for real-time monitoring of system, parsing, indication and visualization of logs. Added Wazuh agents and webhooks to Shuffle to send alerts.
 - TheHive for incident case management where created users can quickly react to incidents, share tasks between each other, make reports.
