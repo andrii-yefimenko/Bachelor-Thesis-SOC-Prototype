@@ -1,4 +1,4 @@
-# FIM (File Integrity Monitoring) Detection
+# FIM-(File-Integrity-Monitoring)-Detection
 
 ## Objective
 Demonstration of the system's ability to detect the addition of files to a specific folder.
